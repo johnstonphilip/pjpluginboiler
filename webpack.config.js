@@ -25,8 +25,8 @@ module.exports = [
 		...defaultConfig,
 		entry: __dirname + '/includes/admin/js/src/index.js',
 		output: {
-			path: __dirname + '/',
-			filename: 'includes/admin/js/build/index.js',
+			path: __dirname + '/includes/admin/js/build/',
+			filename: 'index.js',
 		},
 		module: {
 			rules: [
